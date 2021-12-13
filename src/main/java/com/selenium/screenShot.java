@@ -24,7 +24,7 @@ public class screenShot {
         //Takescreenshot is a interface,driver is webdriver instance//
         takesScreenshot = (TakesScreenshot)driver;
         File sourceFile =  takesScreenshot.getScreenshotAs(OutputType.FILE);
-         driver.quit();
+        driver.quit();
 
         { this.filename = new String();
         Scanner scan = new Scanner(System.in);
